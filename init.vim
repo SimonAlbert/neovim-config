@@ -20,7 +20,7 @@ lua require('plugin-config/toggleterm')
 lua require('plugin-config/lualine')
 lua require('plugin-config/telescope')
 lua require('plugin-config/nvim-treesitter')
-
+lua require('plugin-config/project')
 
 
 " lsp配置
