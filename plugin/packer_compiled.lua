@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/simon/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "git@github.com:nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ts-rainbow"] = {
+    loaded = true,
+    path = "/home/simon/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
+    url = "git@github.com:p00f/nvim-ts-rainbow"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/simon/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
