@@ -8,8 +8,8 @@ local db = require('dashboard')
 -- if you don't need any one of icon shortcut action ,you can ignore it.
 --db.custom_footer  -- type can be nil,table or function(must be return table in function)
 --db.preview_file_Path    -- string type
-db.preview_file_height = '1080' -- string type
-db.preview_file_width = '1920' -- string type
+--db.preview_file_height = '1080' -- string type
+--db.preview_file_width = '1920' -- string type
 --db.preview_command      -- string type
 --db.hide_statusline      -- boolean default is true.it will hide statusline in dashboard buffer and auto open in other buffer
 --db.hide_tabline         -- boolean default is true.it will hide tabline in dashboard buffer and auto open in other buffer
@@ -69,15 +69,15 @@ db.custom_header1 = {
 }
 db.custom_header = {
     '', '',
-    [[           ▀████▀▄▄              ▄█   ]],
-    [[             █▀    ▀▀▄▄▄▄▄    ▄▄▀▀█   ]],
-    [[     ▄        █          ▀▀▀▀▄  ▄▀    ]],
-    [[    ▄▀ ▀▄      ▀▄              ▀▄▀    ]],
-    [[   ▄▀    █     █▀   ▄█▀▄      ▄█      ]],
-    [[   ▀▄     ▀▄  █     ▀██▀     ██▄█     ]],
-    [[    ▀▄    ▄▀ █   ▄██▄   ▄  ▄  ▀▀ █    ]],
-    [[     █  ▄▀  █    ▀██▀    ▀▀ ▀▀  ▄▀    ]],
-    [[    █   █  █      ▄▄           ▄▀     ]],
+    [[        ▀████▀▄▄              ▄█]],
+    [[          █▀    ▀▀▄▄▄▄▄    ▄▄▀▀█]],
+    [[  ▄        █          ▀▀▀▀▄  ▄▀ ]],
+    [[ ▄▀ ▀▄      ▀▄              ▀▄▀ ]],
+    [[▄▀    █     █▀   ▄█▀▄      ▄█   ]],
+    [[▀▄     ▀▄  █     ▀██▀     ██▄█  ]],
+    [[ ▀▄    ▄▀ █   ▄██▄   ▄  ▄  ▀▀ █ ]],
+    [[  █  ▄▀  █    ▀██▀    ▀▀ ▀▀  ▄▀ ]],
+    [[ █   █  █      ▄▄           ▄▀  ]],
     '',
     '███████╗    ██╗    ███╗   ███╗     ██████╗     ███╗   ██╗',
     '██╔════╝    ██║    ████╗ ████║    ██╔═══██╗    ████╗  ██║',
