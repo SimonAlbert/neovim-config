@@ -77,6 +77,15 @@ packer.startup(
             })
             use("arkav/lualine-lsp-progress")
 
+            -- markdown
+            use("davidgranstrom/nvim-markdown-preview")
+            -- packer会连接超时,此处手动安装
+            -- cd ~/.local/share/nvim/site/pack/packer/start/
+            -- git clone https://github.com/iamcco/markdown-preview.nvim.git
+            -- cd markdown-preview.nvim
+            -- yarn install
+            -- yarn build
+
             -- dashboard-nvim 启动界面
             use("glepnir/dashboard-nvim")
             -- project 项目管理
