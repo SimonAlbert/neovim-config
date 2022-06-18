@@ -154,6 +154,11 @@ _G.packer_plugins = {
     path = "/home/simon/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "git@github.com:neovim/nvim-lspconfig"
   },
+  ["nvim-markdown-preview"] = {
+    loaded = true,
+    path = "/home/simon/.local/share/nvim/site/pack/packer/start/nvim-markdown-preview",
+    url = "git@github.com:davidgranstrom/nvim-markdown-preview"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/simon/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
