@@ -9,6 +9,7 @@ Toggleterm.setup(
         -- 打开普通终端时，关闭拼写检查
         on_open = function()
             vim.cmd("setlocal nospell")
-        end
+        end,
+        shell = "/bin/zsh" -- 修改默认终端为zsh
     }
 )
