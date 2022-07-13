@@ -10,6 +10,7 @@ lua require("autocmd")
 " https://github.com/ellisonleao/gruvbox.nvim
 set background=dark " or light if you want light mode
 colorscheme tokyonight
+" colorscheme zephyr
 
 " 插件配置
 lua require('plugin-config/db')

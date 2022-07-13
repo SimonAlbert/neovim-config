@@ -12,12 +12,11 @@ packer.startup(
             use {
                 "wbthomason/packer.nvim"
             }
-            -- zephyr theme配置主题
+            --  theme配置主题
             use {
-                'glepnir/zephyr-nvim'
+                'glepnir/zephyr-nvim', -- zephyr
+                'folke/tokyonight.nvim' -- tokyonight
             }
-            -- tokyonight
-            use("folke/tokyonight.nvim")
             -- nvim-tree文件浏览器
             use {
                 'kyazdani42/nvim-tree.lua',
@@ -30,6 +29,8 @@ packer.startup(
                 'akinsho/bufferline.nvim',
                 requires = 'kyazdani42/nvim-web-devicons'
             }
+            -- 代码大纲
+            use 'simrat39/symbols-outline.nvim'
             -- 代码高亮
             use 'nvim-treesitter/nvim-treesitter'
             -- 自动右括号
