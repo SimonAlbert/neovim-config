@@ -88,7 +88,11 @@ packer.startup(
             -- yarn build
 
             -- dashboard-nvim 启动界面
-            use("glepnir/dashboard-nvim")
+            use {
+                "glepnir/dashboard-nvim",
+                event = 'VimEnter',
+                requires = {'nvim-tree/nvim-web-devicons'}
+            }
             -- project 项目管理
             use("ahmedkhalf/project.nvim")
             -- 内置终端
